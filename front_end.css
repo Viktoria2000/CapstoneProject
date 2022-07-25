@@ -1,0 +1,24 @@
+.button {
+    background-color: #b98a54;
+    border: none;
+    color: white;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    border-radius: 10px;
+}
+
+
+.button:hover {
+    box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.25), 0 16px 60px 0 rgba(0, 0, 0, 0.20);
+}
+.recipe {
+    transition: transform 0.5s;
+}
+
+.recipe:hover {
+    transform: scale(0.95);
+}
